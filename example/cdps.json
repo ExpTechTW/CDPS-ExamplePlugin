@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "name": "Example",
     "description": {
-        "zh_tw": "CDPS 的 範例插件"
+        "zh_tw": "CDPS 的 範例擴充"
     },
     "author": [
         "YuYu1015"
