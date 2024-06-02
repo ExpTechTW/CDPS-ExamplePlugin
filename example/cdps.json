@@ -1,6 +1,5 @@
 {
     "version": "1.0.0",
-    "name": "Example",
     "description": {
         "zh_tw": "CDPS 的 範例擴充"
     },
@@ -8,7 +7,7 @@
         "YuYu1015"
     ],
     "dependencies": {
-        "CDPS": ">=1.0.11"
+        "CDPS": ">=1.0.14"
     },
     "resources": [
         "AGPL-3.0"
