@@ -7,7 +7,7 @@
         "YuYu1015"
     ],
     "dependencies": {
-        "CDPS": ">=1.0.14"
+        "CDPS": ">=1.0.18"
     },
     "resources": [
         "AGPL-3.0"
