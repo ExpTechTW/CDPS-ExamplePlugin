@@ -1,13 +1,9 @@
-from cdps.plugin.manager import Manager, Listener
 from cdps.plugin.events import onServerStartEvent
+from cdps.plugin.manager import Listener, event_listener
 
 
+@event_listener(onServerStartEvent)
 class onServerStartListener(Listener):
-    event = onServerStartEvent
 
     def on_event(self, event):
-        print(event.pid)
-
-
-event_manager = Manager()
-event_manager.register_listener(onServerStartListener())
+        print("Hello World")
